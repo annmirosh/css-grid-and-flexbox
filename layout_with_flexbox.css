@@ -1,0 +1,34 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    overflow: auto
+}
+
+.middle-panel {
+    flex-grow: 1;
+    overflow: auto;
+}
+
+.right-panel {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-panel_photos {
+    overflow: auto;
+    flex-grow: 1;
+}
